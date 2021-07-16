@@ -50,10 +50,10 @@ PCA
 
 I used PCA and r2_score to identify the features that contributed most of the variance in the model. Not surprisingly, vaccine hesitancy, CVAC_level_of_concern, region=South, and religion=Evangelical are the most important features informing the model. Unfortunately, when I reduced features, the MSE went up, so each feature is contributing to the model.
 
-Links to Data / Graphs / Src
-https://github.com/rathbird/Vaccine-Hesitancy-Driving-Covid-Outbreaks/tree/main/data
-https://github.com/rathbird/Vaccine-Hesitancy-Driving-Covid-Outbreaks/tree/main/img
-https://github.com/rathbird/Vaccine-Hesitancy-Driving-Covid-Outbreaks/tree/main/src
+Links to Data / Graphs / Src<br/>
+https://github.com/rathbird/Vaccine-Hesitancy-Driving-Covid-Outbreaks/tree/main/data<br/>
+https://github.com/rathbird/Vaccine-Hesitancy-Driving-Covid-Outbreaks/tree/main/img<br/>
+https://github.com/rathbird/Vaccine-Hesitancy-Driving-Covid-Outbreaks/tree/main/src<br/>
 
 
 
