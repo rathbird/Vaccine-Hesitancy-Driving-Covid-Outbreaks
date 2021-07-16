@@ -11,7 +11,7 @@ The data sets used for this research effort are publically available through the
 - Covid / Vaccine Data by County: CDC
 Common key between databases: FIPS County Code
 
-##Data description
+###Data description
 My target variable is the rate of change (Target_PctChg) in covid rates from June 11th to July 11th of this year. This is a supervised learning model.
 My feature variables are:
 
@@ -24,17 +24,17 @@ My feature variables are:
     Categorical variables DominantReligion / Region were one-hot-encoded
     All data was scaled
 
-## Tools Used in this Analysis
+####Tools Used in this Analysis
 SQL
 Spreadsheets
 Python
 Jupyter Notebooks
 Google CoLab
 
-##Models Used in this Analysis
+####Models Used in this Analysis
 Regession
 
-##Libraries Used
+####Libraries Used
 Numpy
 Pandas
 statsmodels
@@ -42,7 +42,7 @@ matplotlib
 sklearn
 collections
 
-##models used
+####models used
 LinearRegression (with KFold)
 DecisionTreeRegressor (with KFold / max_depth tuning)
 RandomForestRegressor (with RandomizedSearchCV)
