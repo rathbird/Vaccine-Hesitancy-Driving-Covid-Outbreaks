@@ -24,28 +24,28 @@ My feature variables are:
     Categorical variables DominantReligion / Region were one-hot-encoded
     All data was scaled
 
-####Tools Used in this Analysis
-SQL
-Spreadsheets
-Python
-Jupyter Notebooks
-Google CoLab
+####<b>Tools Used in this Analysis</b><br/>
+SQL<br/>
+Spreadsheets<br/>
+Python<br/>
+Jupyter Notebooks<br/>
+Google CoLab<br/>
 
-####Models Used in this Analysis
+####Models Used in this Analysis<br/>
 Regession
 
-####Libraries Used
-Numpy
-Pandas
-statsmodels
-matplotlib
-sklearn
+####Libraries Used<br/>
+Numpy<br/>
+Pandas<br/>
+statsmodels<br/>
+matplotlib<br/>
+sklearn<br/>
 collections
 
-####models used
-LinearRegression (with KFold)
-DecisionTreeRegressor (with KFold / max_depth tuning)
-RandomForestRegressor (with RandomizedSearchCV)
+####models used<br/>
+LinearRegression (with KFold)<br/>
+DecisionTreeRegressor (with KFold / max_depth tuning)<br/>
+RandomForestRegressor (with RandomizedSearchCV)<br/>
 PCA 
 
 I used PCA and r2_score to identify the features that contributed most of the variance in the model. Not surprisingly, vaccine hesitancy, CVAC_level_of_concern, region=South, and religion=Evangelical are the most important features informing the model. Unfortunately, when I reduced features, the MSE went up, so each feature is contributing to the model.
