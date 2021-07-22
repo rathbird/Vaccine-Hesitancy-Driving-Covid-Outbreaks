@@ -55,5 +55,23 @@ https://github.com/rathbird/Vaccine-Hesitancy-Driving-Covid-Outbreaks/tree/main/
 https://github.com/rathbird/Vaccine-Hesitancy-Driving-Covid-Outbreaks/tree/main/img<br/>
 https://github.com/rathbird/Vaccine-Hesitancy-Driving-Covid-Outbreaks/tree/main/src<br/>
 
+## Conclusions
 
+The four factors that contributed the most to a rising level of infection were:
+- High vaccine hesitancy
+- High CVAC level of concern (CDC worries about the vaccine rollout)
+- Being in the South Region
+- Having Evangelical be the dominant religion in the county
+
+I predicted future outbreaks by identifying counties which had:
+- Vaccine hesitancy above the 75th quartile
+- CVAL concern above the 75th quartile
+- Being in the south
+- Evangelical religion
+
+I also removed the criteria of being in the south to see where else we might expect outbreaks, and ended up with two counties in Missouri (midwest) which are currently the hardest hit in the U.S.
+
+## For Future Study
+
+The mitigation for the disease is the vaccine, so county health officials will need to investigate influencers for these areas and use those influencers to convince more people to get vaccinated. 
 
