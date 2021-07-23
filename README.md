@@ -48,6 +48,9 @@ DecisionTreeRegressor (with KFold / max_depth tuning)<br/>
 RandomForestRegressor (with RandomizedSearchCV)<br/>
 PCA 
 
+# Evaluation Metric
+I evaluated my models for the least mean-squared error.
+
 I used PCA and r2_score to identify the features that contributed most of the variance in the model. Not surprisingly, vaccine hesitancy, CVAC_level_of_concern, region=South, and religion=Evangelical are the most important features informing the model. Unfortunately, when I reduced features, the MSE went up, so each feature is contributing to the model.
 
 Links to Data / Graphs / Src<br/>
