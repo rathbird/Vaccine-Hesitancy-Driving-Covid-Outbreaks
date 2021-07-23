@@ -24,6 +24,12 @@ My feature variables are:
     Categorical variables DominantReligion / Region were one-hot-encoded
     All data was scaled
 
+## EDA
+
+I took my data from my various sources and imported them into a SQL database where I could join on the county identifier and produce a single data set to import into python. The most difficult dataset by far was Religion. I had 133 distinct religious groups that I had to fit into categories. I ended up with four categories: Evangelical, Catholic, Mainline (Protestant), and Other (Mormon, Amish, Jewish, Hindu, etc). I was only looking at the dominant religion in each county, and the Other categories were so sparse they added no information to my model, so I combined them.
+
+Most of my columns were already percentages, but I did end up normalizing all of my data to be between 0 and 1.
+
 <b>Tools Used in this Analysis</b><br/>
 SQL<br/>
 Spreadsheets<br/>
